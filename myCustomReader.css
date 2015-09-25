@@ -4,10 +4,13 @@
 	http://canisbos.com/customreader
 */
 
-#controls {
+#controls 
+{
     margin-left: 1%;
 }
-#article {
+
+#article 
+{
     background-color: #fcc33c;
     margin-left: 0px;
     margin-top: 0px;
@@ -17,13 +20,19 @@
     position: absolute;
     margin-right: 0px !important;
 }
-.title {
+
+.title 
+{
     color: #8b0000 !important;
 }
-.page .title {
+
+.page .title 
+{
     font-size: 56px;
 }
-.page {
+
+.page 
+{
     text-rendering: optimizelegibility;
     font-family: 'Proxima Nova';
     margin-left: 0px;
@@ -33,39 +42,55 @@
     color: #8c3718;
     background-color: #fcc33c;
 }
-.page > * {
+
+.page > * 
+{
     zoom: 1;
 }
-p {
+
+p 
+{
     margin-bottom: 1em;
     text-indent: 0px;
     line-height: 1.4;
     font-size: 40px;
 }
-h1, h2, h3, h4, h5, h6 {
+
+h1, h2, h3, h4, h5, h6 
+{
     font-family: 'Proxima Nova';
     margin-top: 0%;
     color: #8b0000;
     font-size: 48px;
 }
-figcaption {
+
+figcaption 
+{
     font-family: Helvetica, sans-serif;
     font-size: 75%;
     color: #8b0000;
 }
-figcaption p {
+
+figcaption p 
+{
     margin: 0px;
     color: #8b0000;
 }
-.page a {
+
+.page a 
+{
     color: #ff5721 !important;
     text-decoration: none !important;
 }
-a:hover {
+
+a:hover 
+{
     text-decoration: underline !important;
 }
+
 
 .page p
 {
     color: #8c3718;
 }
+
