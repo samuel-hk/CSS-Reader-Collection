@@ -1,38 +1,58 @@
-/*
-	This is a css setting for custom reader extension for safari
-	The extension is at:
-	http://canisbos.com/customreader
-*/
-
-#controls 
+#article .page div.scrollable
 {
-    margin-left: 1%;
+    overflow-x: hidden;
 }
 
-#article 
+td
 {
+    font-size:1.5em;
+}
+
+table
+{
+    width:80%;
+}
+
+em
+{
+    font-size:30px;
+   line-height:120%;
+
+}
+
+li
+{
+    font-size:30px;
+   line-height:120%;
+}
+
+q
+{
+    font-size:28px;
+    line-height:120%;
+}
+
+#controls {
+    margin-left: 1%;
+}
+#article {
     background-color: #fcc33c;
     margin-left: 0px;
     margin-top: 0px;
     padding-top: 0px;
     padding-right: 0px;
+    padding-bottom:0px !important;
     min-width: 1440px;
     position: absolute;
     margin-right: 0px !important;
 }
-
-.title 
-{
+.title {
     color: #8b0000 !important;
 }
-
-.page .title 
-{
+.page .title {
     font-size: 56px;
 }
-
-.page 
-{
+.page {
     text-rendering: optimizelegibility;
     font-family: 'Proxima Nova';
     margin-left: 0px;
@@ -42,55 +62,47 @@
     color: #8c3718;
     background-color: #fcc33c;
 }
-
-.page > * 
-{
+.page > * {
     zoom: 1;
 }
-
-p 
-{
+p {
     margin-bottom: 1em;
     text-indent: 0px;
     line-height: 1.4;
     font-size: 40px;
 }
-
-h1, h2, h3, h4, h5, h6 
-{
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Proxima Nova';
     margin-top: 0%;
     color: #8b0000;
     font-size: 48px;
 }
-
-figcaption 
-{
+figcaption {
     font-family: Helvetica, sans-serif;
     font-size: 75%;
     color: #8b0000;
 }
-
-figcaption p 
-{
+figcaption p {
     margin: 0px;
     color: #8b0000;
 }
-
-.page a 
-{
+.page a {
     color: #ff5721 !important;
     text-decoration: none !important;
 }
-
-a:hover 
-{
+a:hover {
     text-decoration: underline !important;
 }
+.page p {
+    color: #8c3718;
+}
 
-
-.page p
+*
 {
     color: #8c3718;
 }
 
+#CustomReaderSettingsBox * *
+{
+    color:black;
+}
